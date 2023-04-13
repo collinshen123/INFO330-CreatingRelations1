@@ -1,4 +1,4 @@
-Create Table If Not Exists students (ID Integer Primary Key, first_name String(40), last_name String(80), age Numeric)
+Create Table If Not Exists students (ID Integer Primary Key, first_name varchar(40), last_name varchar(80), age Numeric)
 Insert Into students (ID, first_name, last_name, age) Values (1, 'Fred', 'Flintstone', 35);
 Insert Into students (ID, first_name, last_name, age) Values (2, 'Wilma', 'Flintstone', 29);
 Insert Into students (ID, first_name, last_name, age) Values (3, 'Barney', 'Rubble', 33);
